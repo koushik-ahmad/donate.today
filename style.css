@@ -67,7 +67,7 @@ body {
 }
 
 .body-part p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .donate {
@@ -143,7 +143,38 @@ body {
 }
 
 .donate-plan p {
-  font-size: 20px;
+  font-size: 18px;
+}
+/* =========================== */
+
+.donate-service {
+  display: flex;
+  padding-left: 250px;
+  padding-right: 250px;
+
+}
+.food-family{
+  border: 0px solid;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: rgb(212, 245, 233);
+  padding: 40px 20px 30px 15px;
+}
+
+.shelter-family {
+  border: 0px solid;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #edcece;
+  padding: 40px 20px 30px 15px;
+}
+.education-family {
+  border: 0px solid;
+  border-radius: 5px;
+  margin-left: 20px;
+  background-color: rgb(232, 232, 181);
+  padding: 40px 20px 30px 15px;
 }
 
 
@@ -161,28 +192,56 @@ body {
 
 
 
+/* ===========My-update-part=========== */
 
-
-
-/* ====================== */
-
-.my-updates {
+.my-updates { 
   text-align: center;
+  padding: 30px 420px 20px 420px;
+}
+
+.my-updates h1 {
+  font-size: 50px;
+}
+
+.my-updates p {
+  font-size: 18px;
 }
 
 .subscribe-part {
   text-align: center;
+  border: 0px solid red;
+  padding: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 100px;
+  background-color: rgb(219, 219, 191);
 }
 
+.input-box input {
+  background-color: rgb(236, 234, 234);
+  border: 0px solid;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+  font-size: 15px;
+  padding: 10px 50px 10px 20px;
+  height: 20px;
+  width: 160px;
+  color: #CCC;
+  margin-right: -5px;
+}
 
-
-
-
-
-
-
-
-
+.input-box button {
+  text-decoration: none;
+  outline: none;
+  font-size: 15px;
+  border: 0px solid;
+  box-sizing: border-box;
+  border-radius: 0px 5px 5px 0px;
+  padding: 11px 50px 12px 20px;;
+  color: white;
+  background-color: #01AADE;
+  
+}
 
 /* ===========footer============ */
 
@@ -215,3 +274,5 @@ body {
   padding-bottom: 20px;
   margin-bottom: 0;
 }
+
+
